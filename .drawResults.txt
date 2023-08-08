@@ -1,0 +1,112 @@
+
+> super-api-tests@1.0.0 test
+> mocha --timeout 15000 "NYL/games_all_advanced.js"
+
+
+
+  NYL Games
+
+
+ ======  << Tests are running in ENV: >>  ===== : <<< STAGE >>> 
+
+
+MEGAMILLIONS ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  [
+  {
+    primary: [ '1', '2', '3', '4', '5' ],
+    secondary: [ '6' ],
+    multiplier: 2,
+    prizeTierId: 'Regular'
+  }
+]
+POWERBALL ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  [
+  {
+    primary: [ '1', '2', '3', '4', '5' ],
+    secondary: [ '6' ],
+    multiplier: 2,
+    prizeTierId: 'Regular'
+  }
+]
+WIN4 ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  undefined
+PICK10 ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  [
+  {
+    primary: [
+      '1',  '2',  '3',  '4',  '5',
+      '6',  '7',  '8',  '9',  '10',
+      '11', '12', '13', '14', '15',
+      '16', '17', '18', '19', '20'
+    ],
+    prizeTierId: 'Regular'
+  }
+]
+QUICKDRAW ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  [
+  {
+    primary: [
+      '66', '15', '69', '23',
+      '77', '31', '61', '21',
+      '17', '6',  '59', '80',
+      '40', '45', '33', '37',
+      '11', '70', '28', '14'
+    ],
+    multiplier: 2,
+    prizeTierId: 'Regular',
+    secondaryPrizeValue: [ [Object] ],
+    supplemental: [ [Object] ]
+  }
+]
+LOTTO ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  [
+  {
+    primary: [ '1', '2', '3', '4', '5', '6' ],
+    secondary: [ '7' ],
+    prizeTierId: 'Regular'
+  }
+]
+CASH4LIFE ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  [
+  {
+    primary: [ '1', '2', '3', '4', '5' ],
+    secondary: [ '1' ],
+    prizeTierId: 'Regular'
+  }
+]
+TAKE5 ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  undefined
+NUMBERS ==> 
+Status: SUCCESS 
+Status Code:  200 
+
+Draw data for only one game:  undefined
+    ✔ GET /all/draws (7728ms)
+
+
+  1 passing (8s)
+

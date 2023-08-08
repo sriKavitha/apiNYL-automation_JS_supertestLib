@@ -1,0 +1,11 @@
+{
+    "env": "qa",
+    "stage_url": "https://api-stage.nylservices.net/games/",
+    "stage_api_key": "YHYu3tCUtJ7zeYrYzl2P37qeGiumhCLO3hKf3QVF",
+    "qa_url": "https://api-qa.nylservices.net/games/",
+    "qa_api_key": "YlfP2Oaki28S9RkbQQOk21d9U0HyDD1Y5XVa0qi2",
+    "production_url": "https://api.nylservices.net/games/",
+    "production_api_key": "3httNHLjxN6KluYfd4DuH188SwgqgMDN3DyE2PVs",
+    "games": ["megamillions","powerball","win4","pick10","quickdraw","lotto","cash4life","take5","numbers"],
+    "games_id":[12,15,14,27,22,8,13,10,9]
+}
